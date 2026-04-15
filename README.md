@@ -42,7 +42,7 @@ Each chess piece is implemented in its own file:
 To compile and run the project:
 
 ```bash
-g++ -std=c++17 *.cpp -o chess
+g++ -Iinclude -std=c++17 main.cpp src/*.cpp -o chess
 ./chess
 ```
 
