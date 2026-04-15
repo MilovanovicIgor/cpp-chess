@@ -83,17 +83,17 @@ bc1 f4
 
 ## Future Improvements
 
--Code refactor to English naming conventions
--GUI version
--Rules implementation (Pawn promotion, stalemate, 50-move rule, insufficient mating material rule, draw offer)
--Performance optimizations
+- Code refactor to English naming conventions
+- GUI version
+- Rules implementation (Pawn promotion, stalemate, 50-move rule, insufficient mating material rule, draw offer)
+- Performance optimizations
 
 ---
 
 ## Known Issues
--No GUI yet
--Some rules not fully implemented
--Checkmate recognized one move after in some cases
+- No GUI yet
+- Some rules not fully implemented
+- Checkmate recognized one move after in some cases
 
 ---
 
