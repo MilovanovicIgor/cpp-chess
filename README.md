@@ -65,12 +65,12 @@ Every piece has its own identifier:
 
 Moves must be written in coordinate format:
 
--File: a-h
--Rank: 1-8
+- File: a-h
+- Rank: 1-8
 
 Format of Command:
 
-<piece_identifer><from> <to>
+[piece_identifer][from] [to]
 
 Example:
 ```bash
