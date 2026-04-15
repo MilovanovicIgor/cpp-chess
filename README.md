@@ -42,7 +42,7 @@ Each chess piece is implemented in its own file:
 To compile and run the project:
 
 ```bash
-g++ -std=c++17 *.cpp -o chess
+g++ -Iinclude -std=c++17 main.cpp src/*.cpp -o chess
 ./chess
 ```
 
@@ -65,12 +65,12 @@ Every piece has its own identifier:
 
 Moves must be written in coordinate format:
 
--File: a-h
--Rank: 1-8
+- File: a-h
+- Rank: 1-8
 
 Format of Command:
 
-<piece_identifer><from> <to>
+[piece_identifer][from] [to]
 
 Example:
 ```bash
