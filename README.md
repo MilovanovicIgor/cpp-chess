@@ -4,7 +4,6 @@
 This is a chess game implemented in C++ using object-oriented programming.
 The project is currently a CLI (command-line interface) version and supports basic two-player gameplay.
 
->Note: The codebase currently uses Serbian naming conventions. A refactor to English naming is planned in future versions.
 
 ---
 
@@ -24,16 +23,16 @@ The project is currently a CLI (command-line interface) version and supports bas
 ## Project structure
 Each chess piece is implemented in its own file:
 
-- Figura.cpp (Base class for all chess pieces)
-- Pijun.cpp (Pawn)
-- Konj.cpp (Knight)
-- Lovac.cpp (Bishop)
-- Top.cpp (Rook)
-- Kraljica.cpp (Queen)
-- Kralj.cpp (King)
-- Tabla.cpp (Implements chess board logic)
-- Igra.cpp (Handles game flow)
-- Main.cpp (Entry point of the application)
+- Piece.cpp (Base class for all chess pieces)
+- Pawn.cpp 
+- Knight.cpp 
+- Bishop.cpp 
+- Rook.cpp 
+- Queen.cpp 
+- King.cpp 
+- Board.cpp (Implements chess board logic)
+- Game_flow.cpp (Handles game flow)
+- main.cpp (Entry point of the application)
 
 ---
 
@@ -83,7 +82,6 @@ bc1 f4
 
 ## Future Improvements
 
-- Code refactor to English naming conventions
 - GUI version
 - Rules implementation (Pawn promotion, stalemate, 50-move rule, insufficient mating material rule, draw offer)
 - Performance optimizations
@@ -93,12 +91,12 @@ bc1 f4
 ## Known Issues
 - No GUI yet
 - Some rules not fully implemented
-- Checkmate recognized one move after in some cases
+- In some cases, checkmate is recognised one turn after it is supposed to, when checkmated player wants to make a move
 
 ---
 
 ## Project Status
-Active development (v0.1.0)
+Active development (v0.2.0)
 
 ## Author
 Created by: Igor Milovanovic
