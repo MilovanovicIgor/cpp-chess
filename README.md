@@ -32,7 +32,7 @@ Each chess piece is implemented in its own file:
 - King.cpp 
 - Board.cpp (Implements chess board logic)
 - Game_flow.cpp (Handles game flow)
-- Main.cpp (Entry point of the application)
+- main.cpp (Entry point of the application)
 
 ---
 
