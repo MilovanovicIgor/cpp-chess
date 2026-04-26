@@ -4,20 +4,19 @@
 #include<cmath>
 #include<string>
 
-#include "Tabla.h"
-#include "Igra.h"
+#include "Board.h"
+#include "Game_flow.h"
 
 
 
 int main(){
-    std::cout<<"Pokrenut\n";
-
-    Tabla tabla=Tabla();
-
-    tabla.postavi_pocetnu_poziciju();
     
-    Igra igra=Igra(&tabla);
-    igra.pocni_igru();
+    Board board=Board();
+
+    board.set_up_starting_position();
+    
+    Game_flow game=Game_flow(&board);
+    game.start_the_game();
 
     
     return 0;
